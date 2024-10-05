@@ -141,7 +141,7 @@ a{
   font-size: 1rem;
 }
 .hero{
-  background: url(./img/og-hero.png);
+  background: url('og-hero.png');
   height: 40vh;
   width: 100%;
   background-size: cover;
