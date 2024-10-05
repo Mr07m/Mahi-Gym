@@ -1,0 +1,205 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+:root{
+  --primary-color:rgb(0, 0, 0);
+  --secondry-clor:rgb(19, 14, 14);
+  --color:#fff;
+}
+.about{
+  background-color: var(--secondry-clor);
+}
+.pbgc{
+  background-color: var(--primary-color);
+  color: var(--color);
+}
+.home{
+  height: 100vh;
+}
+.getStarted-btn{
+  background:linear-gradient(to right,green,orange);
+  text-decoration: none;
+  padding: 10px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bolder;
+
+}
+.fs-07rem{
+  font-size: .7rem;
+}
+.fs-2rem{
+  font-size: 2rem;
+}
+.watch-btn{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bolder;
+  border: 1px solid yellow;
+  padding:8px 10px;
+}
+.nav-link{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  font-weight: bold;
+  color: yellow;
+}
+.clients{
+  background-color: rgba(8, 8, 8, 0.945);
+}
+.my-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot{
+  font-size: 3.5rem;
+  margin: 0px 5px;
+}
+.second-dot{
+  font-size: 6rem;
+}
+.arrow i{
+  background-color: #1a0808;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 1s;
+}
+.arrow i:hover{
+  background-color: rgb(228, 243, 11);
+  color: black;
+  transform: scale(1.2,1.2);
+}
+.plan{
+  background-color: #191919;
+}
+.plan-card{
+  border: 1px solid white;
+  height: 450px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.plan-card:hover{
+  transform: scale(1.1,1.1);
+  border: 1px solid yellow;
+}
+.plan-higlighter{
+  background-color: #423535;
+  transition: all 1s;
+}
+.plan-higlighter:hover{
+  background-color: rgb(231, 231, 26);
+  color: black;
+  font-weight: bold;
+}
+
+.form .form-control{
+  background: #000;
+  color: white;
+}
+.form .form-control::placeholder{
+  color: white;
+}
+
+.calc-btn{
+  background:linear-gradient(to right,green,orange);
+  text-decoration: none;
+  padding: 10px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card{
+  border: none;
+  background-color: #130b0b;
+  color: white;
+  border-bottom-color: yellow;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+.msg{
+  float: right;
+}
+.card-font{
+  font-size: 1rem;
+}
+.hero{
+  background: url(./img/og-hero.png);
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.my-footer{
+  background-color: #1a0909;
+}
+.schedule-btn{
+  background:linear-gradient(to right,green,orange);
+  text-decoration: none;
+  padding: 10px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.social a{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid gray;
+  text-align: center;
+  margin: 0px 2px;
+}
+.social a:hover{
+  background:linear-gradient(to right,green,orange);
+  text-decoration: none;
+  color: white;
+
+}
+
+.btn-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+align-items: center;
+}
+.tag-btn{
+  display: inline-block;
+  color: white;
+  border: 1px solid gray;
+  padding: 8px 10px;
+  margin: 3px;
+  transition:all 1s ;
+  font-size: .7rem;
+}
+.tag-btn:hover{
+  background:linear-gradient(to right,green,orange);
+  text-decoration: none;
+}
+.links{
+  background:linear-gradient(to right,green,orange);
+}
+.page-links a{
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: .9rem;
+}
